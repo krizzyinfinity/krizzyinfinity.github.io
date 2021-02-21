@@ -5,11 +5,7 @@ font-family: 'Merriweather', serif;
 }
 
 
-.top-container {
-background-color: #E4F9F5;
-padding-top: 3.75rem;
 
-}
 h3 {
 color: #66BFBF;
 text-align:center;
@@ -38,13 +34,19 @@ p {
 
 .img2 {
 position: absolute;
-left: 15rem;
+left: 12rem;
 
 }
 
 .img3 {
   margin: auto;
   height: 20rem;
+
+}
+.top-container {
+background-color: #E4F9F5;
+padding-top: 3.75rem;
+
 
 }
 
@@ -67,7 +69,6 @@ border: solid 1px;
 
 .tbl2 {
 margin: auto;
-
 }
 
 th {
