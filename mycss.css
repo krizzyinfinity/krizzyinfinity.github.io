@@ -23,7 +23,10 @@ color: #66BFBF;
 }
 p {
   font-size: 1rem;
+
 }
+
+
 
 .img1 {
   position: absolute;
@@ -116,6 +119,7 @@ width: 100%;
   section {
     grid-template-columns: 1fr 1fr;
   }
+  
 
   .img3  {
     width: 80%;
@@ -132,6 +136,7 @@ width: 100%;
   section {
     grid-template-columns: 1fr;
   }
+
 
   .img1, .img2  {
     display: none;
