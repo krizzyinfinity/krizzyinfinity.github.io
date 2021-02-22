@@ -27,14 +27,14 @@ p {
 
 .img1 {
   position: absolute;
-  right: 15rem;
+  right: 20rem;
   top: 4rem;
   padding-top: 2rem;
 }
 
 .img2 {
 position: absolute;
-left: 12rem;
+left: 20rem;
 
 }
 
@@ -117,19 +117,28 @@ width: 100%;
     grid-template-columns: 1fr 1fr;
   }
 
-  .img3 {
+  .img3  {
     width: 80%;
     margin: auto;
   }
+
+  .img1, .img2 {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 23.5rem) {
   section {
     grid-template-columns: 1fr;
   }
+
+  .img1, .img2  {
+    display: none;
+  }
   .img3 {
     width: 80%;
 margin: auto;
   }
-  
+
 }
